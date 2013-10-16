@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4C59AE180EE6A3009F46F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C59AD180EE6A3009F46F1 /* Foundation.framework */; };
+		3E4C59B0180EE6A3009F46F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C59AF180EE6A3009F46F1 /* CoreGraphics.framework */; };
+		3E4C59B2180EE6A3009F46F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C59B1180EE6A3009F46F1 /* UIKit.framework */; };
+		3E4C59B8180EE6A3009F46F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C59B6180EE6A3009F46F1 /* InfoPlist.strings */; };
+		3E4C59BA180EE6A3009F46F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C59B9180EE6A3009F46F1 /* main.m */; };
+		3E4C59BE180EE6A3009F46F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C59BD180EE6A3009F46F1 /* AppDelegate.m */; };
+		3E4C59C1180EE6A3009F46F1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C59BF180EE6A3009F46F1 /* Main_iPhone.storyboard */; };
+		3E4C59C4180EE6A3009F46F1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C59C2180EE6A3009F46F1 /* Main_iPad.storyboard */; };
+		3E4C59C7180EE6A3009F46F1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C59C6180EE6A3009F46F1 /* MasterViewController.m */; };
+		3E4C59CA180EE6A3009F46F1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C59C9180EE6A3009F46F1 /* DetailViewController.m */; };
+		3E4C59CC180EE6A3009F46F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C59CB180EE6A3009F46F1 /* Images.xcassets */; };
+		3E4C59D3180EE6A3009F46F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C59D2180EE6A3009F46F1 /* XCTest.framework */; };
+		3E4C59D4180EE6A3009F46F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C59AD180EE6A3009F46F1 /* Foundation.framework */; };
+		3E4C59D5180EE6A3009F46F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C59B1180EE6A3009F46F1 /* UIKit.framework */; };
+		3E4C59DD180EE6A3009F46F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C59DB180EE6A3009F46F1 /* InfoPlist.strings */; };
+		3E4C59DF180EE6A3009F46F1 /* Forester_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C59DE180EE6A3009F46F1 /* Forester_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4C59D6180EE6A3009F46F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4C59A2180EE6A3009F46F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E4C59A9180EE6A3009F46F1;
+			remoteInfo = "Forester-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E4C59AA180EE6A3009F46F1 /* Forester-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forester-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C59AD180EE6A3009F46F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E4C59AF180EE6A3009F46F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E4C59B1180EE6A3009F46F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E4C59B5180EE6A3009F46F1 /* Forester-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forester-iOS-Info.plist"; sourceTree = "<group>"; };
+		3E4C59B7180EE6A3009F46F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E4C59B9180EE6A3009F46F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E4C59BB180EE6A3009F46F1 /* Forester-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forester-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		3E4C59BC180EE6A3009F46F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E4C59BD180EE6A3009F46F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E4C59C0180EE6A3009F46F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3E4C59C3180EE6A3009F46F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3E4C59C5180EE6A3009F46F1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3E4C59C6180EE6A3009F46F1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3E4C59C8180EE6A3009F46F1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3E4C59C9180EE6A3009F46F1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3E4C59CB180EE6A3009F46F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E4C59D1180EE6A3009F46F1 /* Forester-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forester-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C59D2180EE6A3009F46F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3E4C59DA180EE6A3009F46F1 /* Forester-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forester-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		3E4C59DC180EE6A3009F46F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E4C59DE180EE6A3009F46F1 /* Forester_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forester_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4C59A7180EE6A3009F46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C59B0180EE6A3009F46F1 /* CoreGraphics.framework in Frameworks */,
+				3E4C59B2180EE6A3009F46F1 /* UIKit.framework in Frameworks */,
+				3E4C59AE180EE6A3009F46F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C59CE180EE6A3009F46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C59D3180EE6A3009F46F1 /* XCTest.framework in Frameworks */,
+				3E4C59D5180EE6A3009F46F1 /* UIKit.framework in Frameworks */,
+				3E4C59D4180EE6A3009F46F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E4C59A1180EE6A3009F46F1 = {
+			isa = PBXGroup;
+			children = (
+				3E4C59B3180EE6A3009F46F1 /* Forester-iOS */,
+				3E4C59D8180EE6A3009F46F1 /* Forester-iOSTests */,
+				3E4C59AC180EE6A3009F46F1 /* Frameworks */,
+				3E4C59AB180EE6A3009F46F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E4C59AB180EE6A3009F46F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C59AA180EE6A3009F46F1 /* Forester-iOS.app */,
+				3E4C59D1180EE6A3009F46F1 /* Forester-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4C59AC180EE6A3009F46F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C59AD180EE6A3009F46F1 /* Foundation.framework */,
+				3E4C59AF180EE6A3009F46F1 /* CoreGraphics.framework */,
+				3E4C59B1180EE6A3009F46F1 /* UIKit.framework */,
+				3E4C59D2180EE6A3009F46F1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E4C59B3180EE6A3009F46F1 /* Forester-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C59BC180EE6A3009F46F1 /* AppDelegate.h */,
+				3E4C59BD180EE6A3009F46F1 /* AppDelegate.m */,
+				3E4C59BF180EE6A3009F46F1 /* Main_iPhone.storyboard */,
+				3E4C59C2180EE6A3009F46F1 /* Main_iPad.storyboard */,
+				3E4C59C5180EE6A3009F46F1 /* MasterViewController.h */,
+				3E4C59C6180EE6A3009F46F1 /* MasterViewController.m */,
+				3E4C59C8180EE6A3009F46F1 /* DetailViewController.h */,
+				3E4C59C9180EE6A3009F46F1 /* DetailViewController.m */,
+				3E4C59CB180EE6A3009F46F1 /* Images.xcassets */,
+				3E4C59B4180EE6A3009F46F1 /* Supporting Files */,
+			);
+			path = "Forester-iOS";
+			sourceTree = "<group>";
+		};
+		3E4C59B4180EE6A3009F46F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C59B5180EE6A3009F46F1 /* Forester-iOS-Info.plist */,
+				3E4C59B6180EE6A3009F46F1 /* InfoPlist.strings */,
+				3E4C59B9180EE6A3009F46F1 /* main.m */,
+				3E4C59BB180EE6A3009F46F1 /* Forester-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E4C59D8180EE6A3009F46F1 /* Forester-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C59DE180EE6A3009F46F1 /* Forester_iOSTests.m */,
+				3E4C59D9180EE6A3009F46F1 /* Supporting Files */,
+			);
+			path = "Forester-iOSTests";
+			sourceTree = "<group>";
+		};
+		3E4C59D9180EE6A3009F46F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C59DA180EE6A3009F46F1 /* Forester-iOSTests-Info.plist */,
+				3E4C59DB180EE6A3009F46F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E4C59A9180EE6A3009F46F1 /* Forester-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C59E2180EE6A3009F46F1 /* Build configuration list for PBXNativeTarget "Forester-iOS" */;
+			buildPhases = (
+				3E4C59A6180EE6A3009F46F1 /* Sources */,
+				3E4C59A7180EE6A3009F46F1 /* Frameworks */,
+				3E4C59A8180EE6A3009F46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forester-iOS";
+			productName = "Forester-iOS";
+			productReference = 3E4C59AA180EE6A3009F46F1 /* Forester-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E4C59D0180EE6A3009F46F1 /* Forester-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C59E5180EE6A3009F46F1 /* Build configuration list for PBXNativeTarget "Forester-iOSTests" */;
+			buildPhases = (
+				3E4C59CD180EE6A3009F46F1 /* Sources */,
+				3E4C59CE180EE6A3009F46F1 /* Frameworks */,
+				3E4C59CF180EE6A3009F46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4C59D7180EE6A3009F46F1 /* PBXTargetDependency */,
+			);
+			name = "Forester-iOSTests";
+			productName = "Forester-iOSTests";
+			productReference = 3E4C59D1180EE6A3009F46F1 /* Forester-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E4C59A2180EE6A3009F46F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Christian Høj";
+				TargetAttributes = {
+					3E4C59D0180EE6A3009F46F1 = {
+						TestTargetID = 3E4C59A9180EE6A3009F46F1;
+					};
+				};
+			};
+			buildConfigurationList = 3E4C59A5180EE6A3009F46F1 /* Build configuration list for PBXProject "Forester-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E4C59A1180EE6A3009F46F1;
+			productRefGroup = 3E4C59AB180EE6A3009F46F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E4C59A9180EE6A3009F46F1 /* Forester-iOS */,
+				3E4C59D0180EE6A3009F46F1 /* Forester-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E4C59A8180EE6A3009F46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C59C4180EE6A3009F46F1 /* Main_iPad.storyboard in Resources */,
+				3E4C59CC180EE6A3009F46F1 /* Images.xcassets in Resources */,
+				3E4C59C1180EE6A3009F46F1 /* Main_iPhone.storyboard in Resources */,
+				3E4C59B8180EE6A3009F46F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C59CF180EE6A3009F46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C59DD180EE6A3009F46F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4C59A6180EE6A3009F46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C59BE180EE6A3009F46F1 /* AppDelegate.m in Sources */,
+				3E4C59C7180EE6A3009F46F1 /* MasterViewController.m in Sources */,
+				3E4C59BA180EE6A3009F46F1 /* main.m in Sources */,
+				3E4C59CA180EE6A3009F46F1 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C59CD180EE6A3009F46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C59DF180EE6A3009F46F1 /* Forester_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E4C59D7180EE6A3009F46F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E4C59A9180EE6A3009F46F1 /* Forester-iOS */;
+			targetProxy = 3E4C59D6180EE6A3009F46F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E4C59B6180EE6A3009F46F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C59B7180EE6A3009F46F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E4C59BF180EE6A3009F46F1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C59C0180EE6A3009F46F1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3E4C59C2180EE6A3009F46F1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C59C3180EE6A3009F46F1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3E4C59DB180EE6A3009F46F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C59DC180EE6A3009F46F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E4C59E0180EE6A3009F46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E4C59E1180EE6A3009F46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E4C59E3180EE6A3009F46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester-iOS/Forester-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Forester-iOS/Forester-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E4C59E4180EE6A3009F46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester-iOS/Forester-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Forester-iOS/Forester-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E4C59E6180EE6A3009F46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forester-iOS.app/Forester-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester-iOS/Forester-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Forester-iOSTests/Forester-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3E4C59E7180EE6A3009F46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forester-iOS.app/Forester-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester-iOS/Forester-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Forester-iOSTests/Forester-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4C59A5180EE6A3009F46F1 /* Build configuration list for PBXProject "Forester-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C59E0180EE6A3009F46F1 /* Debug */,
+				3E4C59E1180EE6A3009F46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4C59E2180EE6A3009F46F1 /* Build configuration list for PBXNativeTarget "Forester-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C59E3180EE6A3009F46F1 /* Debug */,
+				3E4C59E4180EE6A3009F46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E4C59E5180EE6A3009F46F1 /* Build configuration list for PBXNativeTarget "Forester-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C59E6180EE6A3009F46F1 /* Debug */,
+				3E4C59E7180EE6A3009F46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E4C59A2180EE6A3009F46F1 /* Project object */;
+}
