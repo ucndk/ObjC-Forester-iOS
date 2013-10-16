@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Forest.h"
 
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) Forest* detailItem;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UITextField *forestName;
+@property (weak, nonatomic) IBOutlet UITextField *forestLocation;
+@property (weak, nonatomic) IBOutlet UITextField *forestSize;
+@property (weak, nonatomic) IBOutlet UITextField *forestPrice;
+@property (weak, nonatomic) IBOutlet UILabel *forestValue;
+
 @end

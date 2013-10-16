@@ -9,6 +9,7 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "Forest.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -48,7 +49,7 @@
     if (!_objects) {
         _objects = [[NSMutableArray alloc] init];
     }
-    [_objects insertObject:[NSDate date] atIndex:0];
+    [_objects insertObject:[[Forest alloc] initWithName:@"Rold Skov" location:@"Nordjylland" size:123 price:234] atIndex:0];
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
@@ -69,8 +70,9 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    Forest *object = _objects[indexPath.row];
+    cell.textLabel.text = [object name];
+    cell.detailTextLabel.text = object.location;
     return cell;
 }
 
@@ -109,7 +111,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        NSDate *object = _objects[indexPath.row];
+        Forest *object = _objects[indexPath.row];
         self.detailViewController.detailItem = object;
     }
 }
@@ -118,7 +120,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
+        Forest *object = _objects[indexPath.row];
         [[segue destinationViewController] setDetailItem:object];
     }
 }

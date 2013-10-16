@@ -36,7 +36,11 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        self.forestName.text = self.detailItem.name;
+        self.forestLocation.text = self.detailItem.location;
+        self.forestPrice.text = [NSString stringWithFormat:@"%f", self.detailItem.price];
+        self.forestSize.text = [NSString stringWithFormat:@"%f", self.detailItem.squareMeters];
+        self.forestValue.text = [NSString stringWithFormat:@"%f", self.detailItem.forestValue];
     }
 }
 

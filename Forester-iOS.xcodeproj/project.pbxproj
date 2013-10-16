@@ -23,6 +23,8 @@
 		3E4C59D5180EE6A3009F46F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C59B1180EE6A3009F46F1 /* UIKit.framework */; };
 		3E4C59DD180EE6A3009F46F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C59DB180EE6A3009F46F1 /* InfoPlist.strings */; };
 		3E4C59DF180EE6A3009F46F1 /* Forester_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C59DE180EE6A3009F46F1 /* Forester_iOSTests.m */; };
+		3E4C59EC180F2766009F46F1 /* Forest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C59E9180F2766009F46F1 /* Forest.m */; };
+		3E4C59ED180F2766009F46F1 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C59EB180F2766009F46F1 /* Owner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		3E4C59DA180EE6A3009F46F1 /* Forester-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forester-iOSTests-Info.plist"; sourceTree = "<group>"; };
 		3E4C59DC180EE6A3009F46F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E4C59DE180EE6A3009F46F1 /* Forester_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forester_iOSTests.m; sourceTree = "<group>"; };
+		3E4C59E8180F2766009F46F1 /* Forest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forest.h; sourceTree = "<group>"; };
+		3E4C59E9180F2766009F46F1 /* Forest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forest.m; sourceTree = "<group>"; };
+		3E4C59EA180F2766009F46F1 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		3E4C59EB180F2766009F46F1 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 		3E4C59B3180EE6A3009F46F1 /* Forester-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3E4C59E8180F2766009F46F1 /* Forest.h */,
+				3E4C59E9180F2766009F46F1 /* Forest.m */,
+				3E4C59EA180F2766009F46F1 /* Owner.h */,
+				3E4C59EB180F2766009F46F1 /* Owner.m */,
 				3E4C59BC180EE6A3009F46F1 /* AppDelegate.h */,
 				3E4C59BD180EE6A3009F46F1 /* AppDelegate.m */,
 				3E4C59BF180EE6A3009F46F1 /* Main_iPhone.storyboard */,
@@ -261,7 +271,9 @@
 				3E4C59BE180EE6A3009F46F1 /* AppDelegate.m in Sources */,
 				3E4C59C7180EE6A3009F46F1 /* MasterViewController.m in Sources */,
 				3E4C59BA180EE6A3009F46F1 /* main.m in Sources */,
+				3E4C59ED180F2766009F46F1 /* Owner.m in Sources */,
 				3E4C59CA180EE6A3009F46F1 /* DetailViewController.m in Sources */,
+				3E4C59EC180F2766009F46F1 /* Forest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
